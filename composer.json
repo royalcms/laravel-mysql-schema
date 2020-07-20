@@ -1,0 +1,35 @@
+{
+  "name": "royalcms/laravel-mysql-schema",
+  "description": "Doctrine mysql schema for Laravel",
+  "keywords": ["laravel", "Doctrine", "mysql", "schema"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Royal Wang",
+      "homepage": "http://royalcms.cn",
+      "email": "hxroyal@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/royalcms/laravel-mysql-schema",
+  "support": {
+    "email": "hxroyal@gmail.com",
+    "issues":"https://github.com/royalcms/laravel-mysql-schema/issues",
+    "source":"https://github.com/royalcms/laravel-mysql-schema"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "illuminate/database": "^5.0||^6.0|^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Royalcms\\Laravel\\MysqlSchema\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "extra": {
+  },
+  "minimum-stability": "stable"
+}
